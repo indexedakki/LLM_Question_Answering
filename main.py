@@ -16,23 +16,23 @@ import pysqlite3
 # Replace the 'sqlite3' module with 'pysqlite3' in sys.modules
 sys.modules['sqlite3'] = pysqlite3
 
-# Display the Python version
-st.write(f"Python version: {sys.version}")
+# # Display the Python version
+# st.write(f"Python version: {sys.version}")
 
-import sqlite3
-print(sqlite3.sqlite_version_info)
+# import sqlite3
+# print(sqlite3.sqlite_version_info)
 
-import subprocess
-import sys
+# import subprocess
+# import sys
 
-def pip_list():
-    args = [sys.executable, "-m", "pip", "list"]
-    p = subprocess.run(args, check=True, capture_output=True)
-    packages = p.stdout.decode().splitlines()
-    for package in packages:
-        print(package)
+# def pip_list():
+#     args = [sys.executable, "-m", "pip", "list"]
+#     p = subprocess.run(args, check=True, capture_output=True)
+#     packages = p.stdout.decode().splitlines()
+#     for package in packages:
+#         print(package)
 
-pip_list()
+# pip_list()
 
 # loading PDF, DOCX and TXT files as LangChain Documents
 def load_document(file):
