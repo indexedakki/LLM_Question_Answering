@@ -2,7 +2,7 @@
 import streamlit as st
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
-
+import chromadb
 # loading PDF, DOCX and TXT files as LangChain Documents
 def load_document(file):
     import os
@@ -45,7 +45,7 @@ def create_embeddings(chunks):
     # return vector_store
 
     CHROMA_DATA_PATH = "chroma_data/"
-    import chromadb
+    
    
     client = chromadb.PersistentClient(path=CHROMA_DATA_PATH)
     
@@ -65,7 +65,7 @@ def create_embeddings(chunks):
     except Exception as e:
         print(f"The collection '{collection_name}' does not exist or an error occurred: {e}")
 
-    import chromadb
+    
     from chromadb.utils import embedding_functions
 
     CHROMA_DATA_PATH = "chroma_data/"
