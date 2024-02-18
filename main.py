@@ -9,7 +9,7 @@ import sys
 # Display the Python version
 st.write(f"Python version: {sys.version}")
 
-pip list
+%pip list
 
 # loading PDF, DOCX and TXT files as LangChain Documents
 def load_document(file):
