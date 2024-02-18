@@ -2,7 +2,7 @@
 import streamlit as st
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
-import chromadb
+
 # loading PDF, DOCX and TXT files as LangChain Documents
 def load_document(file):
     import os
@@ -46,7 +46,7 @@ def create_embeddings(chunks):
 
     CHROMA_DATA_PATH = "chroma_data/"
     
-   
+    import chromadb
     client = chromadb.PersistentClient(path=CHROMA_DATA_PATH)
     
     # Define the name of the collection you want to check
