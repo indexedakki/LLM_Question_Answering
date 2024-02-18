@@ -1,7 +1,7 @@
 openai
 langchain
 langchain_openai
-chromadb
+chromadb=0.4.22
 docx2txt
 pypdf
 streamlit
