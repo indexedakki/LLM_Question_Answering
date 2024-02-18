@@ -15,9 +15,8 @@ import sys
 def pip_list():
     args = [sys.executable, "-m", "pip", "list"]
     p = subprocess.run(args, check=True, capture_output=True)
+    st.write("\n")
     return p.stdout.decode()
-    st.write("\n helllo ")
-
 st.write(pip_list())
 
 # loading PDF, DOCX and TXT files as LangChain Documents
