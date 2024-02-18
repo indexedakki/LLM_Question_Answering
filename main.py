@@ -9,7 +9,15 @@ import sys
 # Display the Python version
 st.write(f"Python version: {sys.version}")
 
-st.write(pip list)
+import subprocess
+import sys
+
+def pip_list():
+    args = [sys.executable, "-m", "pip", "list"]
+    p = subprocess.run(args, check=True, capture_output=True)
+    return p.stdout.decode()
+
+st.write(pip_list())
 
 # loading PDF, DOCX and TXT files as LangChain Documents
 def load_document(file):
