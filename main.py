@@ -6,9 +6,15 @@ from langchain_community.vectorstores import Chroma
 import streamlit as st
 import sys
 
-__import__(‘pysqlite3’)
+# __import__(‘pysqlite3’)
+# import sys
+# sys.modules[‘sqlite3’] = sys.modules.pop(‘pysqlite3’)
+
 import sys
-sys.modules[‘sqlite3’] = sys.modules.pop(‘pysqlite3’)
+import pysqlite3
+
+# Replace the 'sqlite3' module with 'pysqlite3' in sys.modules
+sys.modules['sqlite3'] = pysqlite3
 
 # Display the Python version
 st.write(f"Python version: {sys.version}")
