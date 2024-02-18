@@ -3,6 +3,12 @@ import streamlit as st
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 
+import streamlit as st
+import sys
+
+# Display the Python version
+st.write(f"Python version: {sys.version}")
+
 # loading PDF, DOCX and TXT files as LangChain Documents
 def load_document(file):
     import os
