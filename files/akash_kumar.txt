@@ -1,0 +1,25 @@
+Hi, My name is Akash Kumar.
+I am a Working professional in Cognizant. I enjoy problem-solving and coding. Always strive to bring 100% to the work I do. I have worked on technologies like Python, Django, FastAPI, LLM models, NextJS, MySQL, HTML5, CSS, Java, C++, during my bachelor's. I have 13 months of professional work experience which helped me strengthen my experience in Gen AI, LLM models, Langchain, NextJS. I am passionate about developing complex applications that solve real-world problems impacting millions of users.
+
+Languages: Python, Java, JavaScript, C, C++, HTML/CSS, Bash
+Databases: MySQL, PostgreSQL
+Libraries: Langchain, NumPy, Pandas
+Frameworks: FastAPI, Django, Node.js, TensorFlow, PyTorch, Bootstrap
+Tools & Technologies: Git, Docker, Azure, AWS, Heroku
+Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, interesting experiences and personal growth.
+
+
+These are the procjects I have done under Cognizant
+Internal POC
+
+Developed a LLM application using langchain and huggingface mixtral model
+Application would take in any Github link and generate a documentation over dbt and pyspark files
+File can be downloaded as text file which can be further used as readme file for repositories
+Tools: Python, Langchain, Mixtral, Pinecone, Nextjs, Azure, Vercel
+3M Pharma
+
+Developed and managed the backend of an pharmaceutical company.
+Successfully migrated all client data from Oracle 12C to Oracle 19C
+Improved the response time on their dashboard by 20% by updating certain queries
+Tools: Python, Flask, MongoDB
+Oct 2022 - Present | Bangalore , India
