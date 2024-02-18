@@ -9,3 +9,4 @@ tiktoken==0.6.0
 Chroma==0.2.0
 sentence_transformers==2.3.1
 db-sqlite3==0.0.1
+pysqlite3-binary
