@@ -9,6 +9,8 @@ import sys
 # Display the Python version
 st.write(f"Python version: {sys.version}")
 
+import sqlite3
+
 import subprocess
 import sys
 
