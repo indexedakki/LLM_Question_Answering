@@ -10,6 +10,7 @@ import sys
 st.write(f"Python version: {sys.version}")
 
 import sqlite3
+print(sqlite3.sqlite_version_info)
 
 import subprocess
 import sys
