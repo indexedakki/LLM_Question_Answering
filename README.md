@@ -1,5 +1,6 @@
-LLM Question Answering App
-Overview
+# LLM Question Answering App
+
+## Overview
 The LLM Question Answering App is a web application designed to facilitate the uploading and processing of text files (docx, pdf, txt) using Streamlit. It leverages advanced technologies such as LangChain, Large Language Models (LLM), ChromaDB, and Azure OpenAI to convert text into embeddings and store them in ChromaDB. This enables users to query documents for specific information, making it an invaluable tool for extracting insights from large volumes of text.
 Features
 •	Upload and Process Text Files: Users can upload text files in various formats (docx, pdf, txt) and process them within the app.
