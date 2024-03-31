@@ -11,16 +11,23 @@ The LLM Question Answering App is a cutting-edge web application designed to mak
 Ensure you have Python version 3.7 or higher installed on your system. 🐍
 ### Installation
 1.	Clone the Repository: Clone this repository to your local machine.
+```bash
 git clone https://github.com/yourusername/llm-question-answering-app.git
+```
 
 
 2.	Install Dependencies: Navigate to the project directory and install the required Python libraries.
+3.	```bash
 pip install streamlit langchain openai chromadb tiktoken
+```
+
 
 
 ### Running the App
 1.	Start the Streamlit Server: Run the Streamlit app using the following command.
+```bash
 streamlit run app.py
+```
 
 
 2.	Access the App: Open your web browser and navigate to the URL provided by Streamlit (usually http://localhost:8501). 🌐
