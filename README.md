@@ -1,3 +1,10 @@
+[![PyPI version](https://badge.fury.io/py/pyautogen.svg)](https://badge.fury.io/py/pyautogen)
+[![Build](https://github.com/microsoft/autogen/actions/workflows/python-package.yml/badge.svg)](https://github.com/microsoft/autogen/actions/workflows/python-package.yml)
+![Python Version](https://img.shields.io/badge/3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue)
+[![Downloads](https://static.pepy.tech/badge/pyautogen/week)](https://pepy.tech/project/pyautogen)
+[![Discord](https://img.shields.io/discord/1153072414184452236?logo=discord&style=flat)](https://discord.gg/pAbnFJrkgZ)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40pyautogen)](https://twitter.com/pyautogen)
+
 # LLM Question Answering App 🚀
 ## Overview 📚
 The LLM Question Answering App is a cutting-edge web application designed to make text file processing and querying simple and efficient. Built with Streamlit, this app allows users to upload text files (docx, pdf, txt) and convert them into embeddings stored in ChromaDB. This innovative approach enables users to query documents for specific information, making it an invaluable tool for extracting insights from large volumes of text.
