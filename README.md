@@ -3,9 +3,13 @@
 The LLM Question Answering App is a cutting-edge web application designed to make text file processing and querying simple and efficient. Built with Streamlit, this app allows users to upload text files (docx, pdf, txt) and convert them into embeddings stored in ChromaDB. This innovative approach enables users to query documents for specific information, making it an invaluable tool for extracting insights from large volumes of text.
 ## Features 🌟
 •	Upload and Process Text Files: Effortlessly upload text files in various formats and process them within the app. 📁
+
 •	Text to Embeddings Conversion: Transform uploaded text into embeddings, enhancing searchability and accessibility. 🧠
+
 •	ChromaDB Storage: Store embeddings in ChromaDB, a vector store optimized for efficient querying. 💾
+
 •	Query Documents: Ask questions related to the document, and the app will provide relevant answers extracted directly from the document. 🔍
+
 ## Getting Started 🏁
 ### Prerequisites
 Ensure you have Python version 3.7 or higher installed on your system. 🐍
@@ -18,7 +22,7 @@ git clone https://github.com/yourusername/llm-question-answering-app.git
 
 2.	Install Dependencies: Navigate to the project directory and install the required Python libraries.
 ```bash
-pip install streamlit langchain openai chromadb tiktoken
+pip install -r requirements.txt
 ```
 
 
