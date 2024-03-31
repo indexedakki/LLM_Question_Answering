@@ -17,7 +17,7 @@ git clone https://github.com/yourusername/llm-question-answering-app.git
 
 
 2.	Install Dependencies: Navigate to the project directory and install the required Python libraries.
-3.	```bash
+```bash
 pip install streamlit langchain openai chromadb tiktoken
 ```
 
